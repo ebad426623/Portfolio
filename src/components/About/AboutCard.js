@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Syed Ebad Hyder </span>
-            from <span className="purple"> Karchi, Pakistan.</span>
+            from <span className="purple"> Karachi, Pakistan.</span>
             <br />
             I am currently working as a Computer Vision Engineer at Aremak Bilişim Teknolojileri.
             <br />
@@ -20,16 +20,16 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <VscCircle /> Building AI and Computer Vision solutions
+              <VscCircle /> Watching One Piece
             </li>
             <li className="about-activity">
-              <VscCircle /> Game Development with Unity
+              <VscCircle /> Playing Sports
+            </li>
+            <li className="about-activity">
+              <VscCircle /> Playing Online Games
             </li>
             <li className="about-activity">
               <VscCircle /> Machine Learning Research
-            </li>
-            <li className="about-activity">
-              <VscCircle /> Mentoring and continuous learning
             </li>
           </ul>
 
