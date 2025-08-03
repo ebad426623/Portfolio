@@ -15,8 +15,6 @@ import {
   SiPostgresql,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
-  SiRedis,
   SiJson,
   SiPhp,
   SiMysql,
@@ -32,7 +30,6 @@ import {
   SiQt,
   SiFlutter,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
