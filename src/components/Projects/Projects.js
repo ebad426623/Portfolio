@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
+import mask_detection from "../../Assets/Projects/mask_detection.png";
 
 function Projects() {
   return (
@@ -18,12 +18,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           { <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={mask_detection}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Mask Detection"
+              description="A real-time mask detection system using YOLO for AI-powered face mask recognition. Built with FastAPI for the backend, React for the frontend, and Docker for containerization. Deployed on Render for scalable cloud access, this tool helps enforce public safety by detecting mask compliance in live video streams."
+              ghLink="https://github.com/ebad426623/Mask_Detector_Backend"
+              demoLink="https://youtu.be/qNxTTSTxODc"
             />
           </Col>
 /*
