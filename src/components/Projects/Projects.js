@@ -7,6 +7,7 @@ import laundry_buddy from "../../Assets/Projects/laundry_buddy.png";
 import flappy_bird from "../../Assets/Projects/flappy_bird.png";
 import balloon_splash from "../../Assets/Projects/balloon_splash.png";
 import profile_laser from "../../Assets/Projects/profile_laser.png";
+import error_map from "../../Assets/Projects/error_map.png";
 
 function Projects() {
   return (
@@ -20,6 +21,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={error_map}
+              isBlog={false}
+              title="Error Map"
+              description="A modular C++ application built with OOP principles and a QT GUI for high-speed industrial inspection. Interfaces with Hikrobot 3D laser scanners and OPT PCP structured light to capture surface profiles and generate precise error maps, detecting sub-millimeter defects invisible to the naked eye."
+              ghLink={null}
+              demoLink="https://youtu.be/Tn4axLMsB98"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={profile_laser}
