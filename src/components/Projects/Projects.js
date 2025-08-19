@@ -25,7 +25,7 @@ function Projects() {
               imgPath={profile_laser}
               isBlog={false}
               title="3D Laser Profile Sensor"
-              description="This project uses a Hikrobot 3D Laser Profile Sensor, interfacing with its SDK in C++. The GUI and control system were developed using QT for real-time 3D laser profiling."
+              description="Developed a modular C++ application using OOP principles to interface with the Hikrobot 3D Laser Profile Sensor SDK. Designed a structured QT-based GUI for real-time control, emphasizing maintainability through encapsulation, abstraction, and reusable components."
               ghLink={null}
               demoLink="https://youtu.be/ynnqgplYaPY"
             />
