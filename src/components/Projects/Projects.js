@@ -6,6 +6,7 @@ import mask_detection from "../../Assets/Projects/mask_detection.png";
 import laundry_buddy from "../../Assets/Projects/laundry_buddy.png";
 import flappy_bird from "../../Assets/Projects/flappy_bird.png";
 import balloon_splash from "../../Assets/Projects/balloon_splash.png";
+import profile_laser from "../../Assets/Projects/profile_laser.png";
 
 function Projects() {
   return (
@@ -19,6 +20,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={profile_laser}
+              isBlog={false}
+              title="3D Laser Profile Sensor"
+              description="This project uses a Hikrobot 3D Laser Profile Sensor, interfacing with its SDK in C++. The GUI and control system were developed using QT for real-time 3D laser profiling."
+              ghLink={null}
+              demoLink="https://youtu.be/ynnqgplYaPY"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mask_detection}
